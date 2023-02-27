@@ -1,0 +1,13 @@
+import time
+import datetime
+
+start_time = time.time()
+
+# 这里可以插入一些程序逻辑
+
+end_time = time.time()
+
+total_time = time.time() - start_time
+total_time_str = str(datetime.timedelta(seconds=int(total_time)))
+
+print("Training time {} " + total_time_str)
